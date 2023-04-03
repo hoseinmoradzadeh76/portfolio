@@ -7,10 +7,10 @@ const DevExpTimeLine = ({loading}) => {
         <Timeline position="right" sx={{ direction: "ltr" }}>
             {
                 devPro.map((item, index) => (
-                    <Slide in={loading} direction="up" style={{
+                    <Slide in={loading} key={index} direction="up" style={{
                         transitionDelay: loading ? `${index + 3}99ms` : "0ms"
                     }}>
-                        <TimelineItem key={index}>
+                        <TimelineItem >
                             <TimelineSeparator>
                                 <TimelineDot color="warning" variant="outLined">
                                     <HomeRepairServiceRounded color="warning" />

@@ -37,6 +37,11 @@ function AppContainer() {
   const handlePageNumber = (event, newPage) => {
     setPageNumber(newPage);
   };
+
+  const handlePageChange=(index)=>{
+    setPageNumber(index);
+  }
+
   const handleThemeChange=()=>{
     setMode((prevMode)=>(prevMode==="light"?"dark":"light"));
   }
@@ -51,7 +56,7 @@ function AppContainer() {
         </SidebarContainer>
 
         <PagesContainer>
-          <SwipeableViews index={pageNumber} onChangeIndex={handlePageNumber}>
+          <SwipeableViews index={pageNumber} onChangeIndex={handlePageChange}>
             <Page pageNumber={pageNumber} index={0}>
               <Home title="صحفه اصلی"/>
 

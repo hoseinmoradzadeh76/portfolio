@@ -21,7 +21,7 @@ const ShowProject=({loading})=>{
                                                 {item.title}
                                             </Typography>
                                             <Typography variant="body2" color="text.secondary" textAlign="left" sx={{direction:"ltr"}}>
-                                                {/*<EllipsisText text={item.info} length={"100"}/>*/}
+                                                {/*<EllipsisText text={item.info} length={100}/>*/}
                                                 {item.info}
                                             </Typography>
                                         </CardContent>

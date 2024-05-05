@@ -7,10 +7,12 @@ import Particles from "react-particles";
 import TextTransition, { presets } from "react-text-transition";
 import { loadFull } from "tsparticles";
 import { links } from "../constants/particles";
+
 const Home = ({title}) => {
     const [index, setIndex] = useState(0);
     const nameEl = useRef(null);
     const infoEl = useRef(null);
+    
 
     const string = [
         "برنامه نویس و توسعه دهنده سایت هستم",
@@ -65,13 +67,13 @@ const Home = ({title}) => {
             </Helmet>
             <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={links} />
             <Box component="div" sx={{display:"flex"}}>
-                <Typography variant="h3" color="#4682b4">
+                <Typography variant="h3"  color="primary">
                     {"{{"}
                 </Typography>
-                <Typography variant='h3' ref={nameEl} sx={{ textAlign: "center" }} color="primary">
+                <Typography variant='h3' ref={nameEl} color="primary" sx={{ textAlign: "center" }}  >
 
                 </Typography>
-                <Typography variant="h3" color="#4682b4">
+                <Typography variant="h3" color="primary">
                     {"}}"}
                 </Typography>
             </Box>

@@ -19,12 +19,12 @@ const CommentSlider = () => {
             <Slider {...options}>
                 {
                     userComments.map((item, index) => (
-                        <Box key={index} component="div" sx={{mt:5}}>
-                            <Avatar src={item.avatar} variant="rounded" sx={{ height: 100, width: 100, margin: "0 auto",borderRadius:50 }} />
-                            <Typography variant="body1" color="black" textAlign="center" >
+                        <Box key={index} component="div" sx={{ mt: 5}}>
+                            <Avatar src={item.avatar} variant="rounded" sx={{ height: 100, width: 100, margin: "0 auto", borderRadius: 50 }} />
+                            <Typography variant="body1" color="theme.main" textAlign="center" sx={{ mt: 2 }} >
                                 {item.fullname}
                             </Typography>
-                            <Typography variant="body2" color="black" textAlign="center" sx={{ mb: 2 }}>
+                            <Typography variant="body2" color="theme.main" textAlign="center" sx={{ mb: 2 }}>
                                 {item.job}
                             </Typography>
                             <Card sx={{ backgroundColor: "lightsalmon", width: 1 / 2, margin: "0 auto", borderRadius: 5 }}>

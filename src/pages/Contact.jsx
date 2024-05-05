@@ -28,7 +28,7 @@ const Contact = ({ title }) => {
     return (
         <Card sx={{
             height: "100vh",
-            backgroundColor: "whitesmoke",
+            backgroundColor: "theme.main",
             overflowY: "scroll",
             display: "flex",
             flexDirection: "column"
@@ -51,16 +51,15 @@ const Contact = ({ title }) => {
                     </Slide>
                     <Slide in={loading} direction="up" style={{ transitionDelay: loading ? "200ms" : "0ms" }}>
                         <Grid xs={0} sm={0} md={4} sx={{ textAlign: "center" }}>
-                            <Typography variant="h6" color="black" sx={{
+                            <Typography variant="h6" color="theme.main" sx={{
                                 mt: 4, fontFamily: "vazir", display: {
                                     xs: "none",
-
                                     md: "block"
                                 }
                             }}>
                                 بیا در مورد همه چیز با هم صحبت کنیم
                             </Typography>
-                            <Typography variant="body1" color="black" sx={{
+                            <Typography variant="body1" color="theme.main" sx={{
                                 mt: 2, display: {
                                     xs: "none",
                                     md: "block"

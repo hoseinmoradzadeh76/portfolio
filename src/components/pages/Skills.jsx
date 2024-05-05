@@ -61,7 +61,7 @@ const Skills = () => {
 
     return (
         <>
-            <Skill name={skillHtml.name} icon={skillHtml.icon} color={skillHtml.color} value={html} />
+            <Skill name={skillHtml.name} icon={skillHtml.icon} color={skillHtml.color} value={html} background={skillHtml.background} />
             <Skill name={skillCss.name} icon={skillCss.icon} color={skillCss.color} value={css} />
             <Skill name={skillJavaScript.name} icon={skillJavaScript.icon} color={skillJavaScript.color} value={javascript} />
             <Skill name={skillBootstrap.name} icon={skillBootstrap.icon} color={skillBootstrap.color} value={bootstrap} />

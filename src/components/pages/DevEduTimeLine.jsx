@@ -24,10 +24,10 @@ const DevEduTimeLine = ({ loading }) => {
                                 <Typography variant="caption" color="gray">
                                     {item.year}
                                 </Typography>
-                                <Typography variant="body1" color="black">
+                                <Typography variant="body1" color="theme.main">
                                     {item.cart}
                                 </Typography>
-                                <Typography variant="body2" color="black">
+                                <Typography variant="body2" color="theme.main">
                                     {item.major}
                                 </Typography>
                                 <Typography variant="body2" color="gray">

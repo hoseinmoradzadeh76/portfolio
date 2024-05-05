@@ -6,8 +6,11 @@ import { RandomReveal } from 'react-random-reveal';
 import { alphabetPersain } from "../../constants/alphabetPersian";
 import ThemeActionButton from "../ThemeActionButton";
 import { CustomeAvatar } from "../common";
+import { useTheme } from "@mui/material/styles";
 const SidebarHeader = () => {
  const [start,setstart]=useState(false);
+
+
 
   return (
     <>
@@ -19,7 +22,7 @@ const SidebarHeader = () => {
         <RandomReveal isPlaying duration={4} characterSet={alphabetPersain} characters="حسین مرادزاده" onComplete={()=>{setstart(true)}}/>
       </Typography>
       {start &&(
-        <Typography variant='caption' color="gray" >
+        <Typography variant='caption' color="primary" >
         <Typography variant="caption" color="#4682b4">[[{" "}</Typography>
         <RandomReveal isPlaying duration={4} characterSet={alphabetPersain} characters="برنامه نویس فرانت اند"/>
         <Typography variant="caption" color="#4682b4">{" "}]]</Typography>

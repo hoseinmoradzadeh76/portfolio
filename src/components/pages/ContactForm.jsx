@@ -20,10 +20,10 @@ const ContactForm = () => {
     });
    
     return (
-        <form autoComplete="off" onSubmit={formik.handleSubmit}>
-            <CardContent>
+        <form autoComplete="off" onSubmit={formik.handleSubmit} >
+            <CardContent >
                 <Grid container>
-                    <Grid xs={12} sx={{ direction: "ltr" }}>
+                    <Grid xs={12} sx={{ direction: "ltr",background:"theme.main" }}>
                         <Grid container spacing={2}>
                             <Grid xs={12} md={6}>
                                 <TextField fullWidth

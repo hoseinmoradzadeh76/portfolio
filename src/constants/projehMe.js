@@ -1,13 +1,7 @@
 import { shardare,goga,me,webjquery,contact } from "../assets/icon";
 
 export const projehMe = [
-    {
-        title: "طراحی وبلاگ با ریداکس",
-        image:me,
-        link:"https://hoseinmoradzadeh.ir/redux",
-        info:"طراحی وبلاگ با Redux , Router ,Api در این اپ نویسنده می تواند به دلخواه پست بنویسد و آن را ویرایش کند و حذف کند و در لینک زیر می توانید ان را مشاهده کنید. سورس کد ان در صحفه گیت هابم قرار دارد",
-
-    },
+   
     {
         title: "طراحی سایت شهرداری شهرستان رشتخوار",
         image:shardare,

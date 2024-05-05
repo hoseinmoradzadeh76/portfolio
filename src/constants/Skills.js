@@ -4,7 +4,8 @@ export const devSkills={
         id:0,
         name:"Html",
         icon:HtmlIcon,
-        color:"primary"
+        color:"primary",
+       
     },
     skillCss:{
         id:1,

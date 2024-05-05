@@ -49,7 +49,7 @@ export const devPro=[
 export const userComments=[
     {
         fullname:"سید حسین موسوی",
-        job:"دکتر",
+        job:"خادم",
         avatar:me,
         comments:"عالیه مهندس جان ادامه بده قطعا موفق خواهی شد 😎",
     },

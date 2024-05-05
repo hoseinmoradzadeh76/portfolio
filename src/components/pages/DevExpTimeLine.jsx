@@ -21,11 +21,11 @@ const DevExpTimeLine = ({loading}) => {
                             </TimelineSeparator>
                             <TimelineContent>
 
-                                <Typography variant="body1" color="black">{item.titlePro}</Typography>
+                                <Typography variant="body1" color="theme.main">{item.titlePro}</Typography>
                                 <Typography variant="caption" color="gray">{item.landguach}</Typography>
 
-                                <Typography variant="body2" color="gray">
-                                    <a href={item.href} target="_blank" rel="noopener noreferrer" color="gray">{item.address}</a>
+                                <Typography variant="body2" color="theme.main">
+                                    <a href={item.href} target="_blank" rel="noopener noreferrer" color="theme.main">{item.address}</a>
                                 </Typography>
                             </TimelineContent>
                         </TimelineItem>

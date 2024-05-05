@@ -10,7 +10,7 @@ const DevWorkCount = () => {
 
                         <Tooltip title={item.tooltipTitle} placement="right" arrow>
                             <Chip icon={item.icon} label={
-                                <Typography variant="body1" color="whitesmoke">
+                                <Typography variant="body1" color="sucssecc.main">
                                     <CountUp start={0} end={item.total} duration={3} />
 
                                 </Typography>

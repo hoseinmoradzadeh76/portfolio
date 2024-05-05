@@ -20,14 +20,14 @@ const ShowProject=({loading})=>{
                                             <Typography variant="body1" textAlign="left" gutterBottom>
                                                 {item.title}
                                             </Typography>
-                                            <Typography variant="body2" color="text.secondary" textAlign="left" sx={{direction:"ltr"}}>
+                                            <Typography variant="body2" color="theme.main" textAlign="left" sx={{direction:"ltr"}}>
                                                 {/*<EllipsisText text={item.info} length={100}/>*/}
                                                 {item.info}
                                             </Typography>
                                         </CardContent>
                                     </CardActionArea>
                                     <CardActions >
-                                        <Button href={item.link} size="small" sx={{backgroundColor:"steelblue",width:"100%",fontWeight:"bold"}} color="secondary" target="_blank">
+                                        <Button href={item.link} size="small" sx={{backgroundColor:"steelblue",width:"100%",fontWeight:"bold"}} color="warning" target="_blank">
                                            ورود به سایت
                                         </Button>
                                     </CardActions>

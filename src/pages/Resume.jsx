@@ -21,7 +21,7 @@ const Resume = ({ title }) => {
     return (
 
 
-        <Card sx={{ height: "100vh", backgroundColor: "whitesmoke", overflowY: "scroll" }}>
+        <Card sx={{ height: "100vh", backgroundColor: "theme.main", overflowY: "scroll" }}>
             <Helmet>
                 <title>سایت حسین مرادزاده-{title}</title>
             </Helmet>
@@ -36,8 +36,6 @@ const Resume = ({ title }) => {
                            <CustomeDivider bColor="warning.main" cColor="warning" icon={<HomeRepairServiceRounded />} 
                            align="center" text="تجربیات"/>
                            
-                       
-                       
                         <DevExpTimeLine loading={loading}/>
                     </Grid>
                     <Grid xs={6} >

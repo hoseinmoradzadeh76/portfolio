@@ -8,7 +8,7 @@ const Skill = ({ icon, color, name, value }) => {
                     borderColor: `${color}.main`
                 }, mt: 3
             }}>
-                <Chip icon={<Box component="img" src={icon} sx={{ height: 30 }}></Box>} color={color} label={name} sx={{ color: "black", p: 3 }} />
+                <Chip icon={<Box component="img" src={icon} sx={{ height: 30 }}></Box>} color={color} label={name} sx={{ color: "whitesmoke", p: 3 }} />
             </Divider>
             <Box sx={{ display: "flex", alignItems: "center" }}>
                 <Box sx={{ minWidth: 35, mr: 1.2 }}>

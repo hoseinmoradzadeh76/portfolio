@@ -15,7 +15,7 @@ const SidebarTabs=()=>{
    
     return(
         <Tabs orientation="vertical" variant="scrollable" scrollButtons="auto" allowScrollButtonsMobile 
-            indicatorColor={theme.palette.mode==="dark"?"primary":"secondary"} textColor={theme.palette.mode==="dark"?"primary":"secondary"} 
+            indicatorColor="primary" textColor="primary"
             value={pageNumber} onChange={handlePageNumber}
             >
                 {
@@ -28,10 +28,11 @@ const SidebarTabs=()=>{
                         {...tab}
                         
                         sx={{
-                            backgroundColor:theme.palette.mode==="dark"?grey[800]:grey[500],
+                            backgroundColor:theme.palette.mode==="dark"?grey[900]:grey[400],
                             color:"text.primary",
                             borderRadius:2,
                             my:0.5,mx:1,
+                         
                             "&.MuiTab-root":{
                             minHeight:30
                         }}}

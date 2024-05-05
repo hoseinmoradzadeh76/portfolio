@@ -11,7 +11,7 @@ const Comments = ({ title }) => {
 
     return (
         <Card sx={{
-            height: "100vh", backgroundColor: "whitesmoke"
+            height: "100vh", backgroundColor: "theme.main"
             , overflowY: "scroll", display: "flex", flexDirection: "column"
         }}>
             <Helmet>

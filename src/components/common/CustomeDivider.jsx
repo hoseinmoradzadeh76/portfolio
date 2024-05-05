@@ -20,7 +20,7 @@ const CustomeDivider = ({ bColor, cColor, icon, align, text }) => {
                 }, my: 2
             }} >
                 <Chip icon={icon} color={cColor} label={
-                    <Typography variant="body1" color="black" sx={{ textAlign: "center" }}>{text}</Typography>
+                    <Typography variant="body1" color="sucssecc.main" sx={{ textAlign: "center" }}>{text}</Typography>
                 } sx={{ p: 3 }} />
 
             </Divider>

@@ -19,7 +19,7 @@ const Projehme = ({ title }) => {
     },[])
 
     return (
-        <Card sx={{ height: "100vh", backgroundColor: "whitesmoke", overflowY: "scroll" }}>
+        <Card sx={{ height: "100vh", backgroundColor: "theme.main", overflowY: "scroll" }}>
             <Helmet>
                 <title>سایت حسین مرادزاده-{title}</title>
             </Helmet>

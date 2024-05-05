@@ -11,7 +11,12 @@ export const lightTheme = createTheme({
     secondary:{
         main:"#bd93f9",
     },
-    typography:{
+    theme:{
+      main:"#000"
+    },
+   
+    
+    typography:{  
       fontFamily:"Vazir",
       button:{
         fontFamily:"tahoma", 
@@ -31,6 +36,11 @@ export const lightTheme = createTheme({
     secondary:{
       main:"#bd93f9",
     },
+    theme:{
+      main:"#fff"
+    },
+    
+    
     typography:{
       fontFamily:"Vazir",
       button:{
